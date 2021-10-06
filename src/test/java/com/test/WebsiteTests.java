@@ -49,7 +49,7 @@ public class WebsiteTests {
   public void messageClick() {
 	  WebElement btn1=wd.findElement(By.id("btn2"));
 	  btn1.click();
-	  Assert.assertEquals(wd.findElement(By.id("message2")).getText(),"ASIA");
+	  Assert.assertEquals(wd.findElement(By.id("message2")).getText(),"EUROPE");
   }
   
   @Test(priority=4)
