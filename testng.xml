@@ -5,6 +5,7 @@
        <classes>
           <class name="com.test.MathTest"></class>
           <class name="com.test.BasicMathTest"></class>
+          <class name="com.test.WebsiteTests"></class>
        </classes>
       
    </test>
